@@ -32,7 +32,6 @@ ul {
   padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -70px;
 }
 
 
@@ -52,7 +51,8 @@ ul {
 .flat-page header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-top: 18px;
 }
 @media (max-width: 767px) {
   .flat-page header .container {
@@ -92,7 +92,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 140px;
+  gap: 90px;
   min-height: calc(100vh - 80px);
 }
 @media (max-width: 767px) {
@@ -106,6 +106,10 @@ ul {
     text-align: center;
     margin-bottom: 15px;
   }
+}
+
+.flat-page .content .info {
+  max-width: 560px;
 }
 
 .flat-page .content .info h1 {
@@ -128,10 +132,11 @@ ul {
   cursor: pointer;
   color: #FFF;
   background-color: #1e90ff;
-}q
+}
 
 .flat-page .content .image img {
-  max-width: 250%;
-  margin-top: 50px;
+  width: 100%;
+  max-width: 490px;
+  margin-top: 30px;
 
 }
